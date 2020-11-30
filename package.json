@@ -1,0 +1,26 @@
+{
+  "name": "sometests",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "all:clean": "find . -name 'dist' -type d -prune -print -exec rm -rf '{}' \\;",
+    "all:reset": "find . -name 'node_modules' -type d -prune -print -exec rm -rf '{}' \\;",
+    "all:lint": "yarn workspaces run lint",
+    "all:format": "yarn workspaces run format",
+    "all:build": "yarn workspaces run build",
+    "all:test": "yarn workspaces run test",
+    "api:start": "yarn workspaces api start"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^4.3.0",
+    "lint-staged": "^10.5.2",
+    "npm-run-all": "^4.1.5"
+  }
+}
