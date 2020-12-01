@@ -1,10 +1,15 @@
-import 'mocha'
+import { sortByWeight } from '../src/'
 import { expect } from 'chai'
+import 'mocha'
 
-import { testFunction } from '../src'
+describe('Digit weight sorting', () => {
+  it('should return a sorted string of digit strings', () => {
+    const result = sortByWeight('26 12 35')
+    expect(result).to.equal('12 26 35')
+  })
 
-describe('Simple tests', () => {
-  it('return one', () => {
-    expect(testFunction()).to.equal(1)
+  it('should return a sorted string of digit strings by "weight"', () => {
+    const result = sortByWeight('26 12 35')
+    expect(result).to.equal('12 26 35')
   })
 })
