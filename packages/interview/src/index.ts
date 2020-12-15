@@ -17,3 +17,9 @@ export const sortByWeight = (unsortedDigitStr: string): string => {
     .map((i) => i.original)
     .join(' ')
 }
+
+export * from './object'
+
+export * from './squareSum'
+
+export * from './repeatCounter'
