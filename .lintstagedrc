@@ -1,5 +1,5 @@
 {
-  "packages/**/*.+(js|ts|tsx)": [
+  "packages/**/*.+(ts|tsx)": [
     "eslint"
   ],
   "packages/**/*.+(js|json|ts|tsx|md)": [
