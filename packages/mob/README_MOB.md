@@ -1,3 +1,8 @@
+# Setup
+You made need to run:
+
+npm i --save-dev chai
+npm i --save-dev @types/mocha
 # Mob stuff
 
 ## Square Digits
@@ -40,3 +45,5 @@ The order of the queue NEVER changes, and
 The front person in the queue (i.e. the first element in the array/list) proceeds to a till as soon as it becomes free.
 N.B. You should assume that all the test input will be valid, as specified above.
 P.S. The situation in this kata can be likened to the more-computer-science-related idea of a thread pool, with relation to running multiple processes at the same time: https://en.wikipedia.org/wiki/Thread_pool
+
+
