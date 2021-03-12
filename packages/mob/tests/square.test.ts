@@ -9,7 +9,7 @@ import 'mocha'
 // 811181 number
 
 // Test organizer
-describe('Square Digits', () => {
+describe.skip('Square Digits', () => {
   // Test Block
   it('Given 2 should be 4', () => {
     // Run function with input
