@@ -2,7 +2,7 @@ import { queueTime } from '../src'
 import { expect } from 'chai'
 import 'mocha'
 
-describe('Queuey the qqqqueue', () => {
+describe.skip('Queuey the qqqqueue', () => {
   it('time should be zero with an empty array', () => {
     expect(queueTime([], 1)).to.equal(0)
   })
@@ -13,5 +13,5 @@ describe('Queuey the qqqqueue', () => {
     expect(queueTime([2, 2, 3, 3, 4, 4], 2)).to.equal(9)
   })
 
-    // expect(queueTime([1, 2, 3, 4, 5], 100)).to.equal(5)
+  // expect(queueTime([1, 2, 3, 4, 5], 100)).to.equal(5)
 })
