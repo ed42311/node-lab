@@ -22,8 +22,6 @@
     "typescript",
     "typescriptreact"
   ],
-  "typescript.tsdk": "node_modules/typescript/lib",
-  "json.format.enable": false,
   "search.exclude": {
     "**/public/**": true,
     "**/node_modules/**": true

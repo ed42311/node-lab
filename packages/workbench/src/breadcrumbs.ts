@@ -185,5 +185,3 @@ const testLinksWithMatch = {
     uuid: 'c26e8a8f-98c3-4bbc-86e9-fd77927bc696',
   },
 }
-
-console.log(buildBreadcrumbs('/about-us/privacy-policy', testLinksWithMatch))
